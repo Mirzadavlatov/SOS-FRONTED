@@ -1,13 +1,47 @@
+/* Normalize Css */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.container{
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  font-style: normal;
+}
+/* Normalize Css */
 
 /* SocialBattle section  */
 
 .SocialBattle{
   background-image: url(../Images/bg-image2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1052px;
+  display: flex;
+  justify-content: center;
 }
 
+.SocialBattle__items{
+  width: 50%;
+  height: 100%;
+}
+
+.SocialBattle__item{
+  width: 100%;
+}
+
+.item{
+  color: #FFF;
+font-family: Bebas Neue;
+font-size: 24px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+}
 /* SocialBattle section  */
