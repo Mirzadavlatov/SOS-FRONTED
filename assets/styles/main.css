@@ -1,5 +1,119 @@
-*{
+/* Normolaze css*/
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none; 
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+/* End Normolaze css */
+.main{
+   background-image: url(/assets/Images/bg-kal.png);
+   background-repeat: no-repeat;
+   width: 1440px;
+   height: 870px;
+}
+.main-title{
+    margin-left: 736px;
+    padding-top: 138px;
+}
+.main-title-1{
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+}
+.main-title-2{
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 70px;
+}
+.main-subtitle-1{
+    color: #FFB548;
+text-align: center;
+font-family: Bebas Neue;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+margin-right: 100px;
+margin-bottom: -10px;
+}
+.main-subtitle-2{
+    color: #FFB548;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-left: 35px;
+    margin-bottom: 36px;
+}
+.main-subtitle-3{
+    color: #FFB548;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-right: 80px;
+}
+.main-subtitle-p{
+    color: #FFF;
+text-align: justify;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+margin-left: 82px;
+margin-bottom: 36px;
+margin-top: -124px;
+}
+.img-line{
+    margin-left: 65px;
 }
