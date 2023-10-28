@@ -90,7 +90,7 @@ a {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin-top: 110px;
+  margin-top: 180px;
 }
 .section_word {
   font-family: 'Bebas Neue', sans-serif;
@@ -148,7 +148,7 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 220px;
 }
 .story_section-scroll {
   width: 20px;
