@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-style: normal;
-}
-
 h1,
 h2,
 h3,
@@ -42,7 +38,12 @@ a {
 
 /* Navbar */
 .header {
-  background-image: url(../Images/Group\ 1.1.webp);
+  background-image: url("../Images/Group\ 1.1.webp");
+  width: 100%;
+  background-repeat: no-repeat;
+  font-style: normal;
+  height: 100vh;
+  background-position: center;
 }
 .header_navbar-words {
   text-transform: uppercase;
@@ -68,7 +69,7 @@ a {
 }
 .header_navbar-word {
   font-family: 'Open Sans', sans-serif;
-  font-size: 9px;
+  font-size: 8px;
   line-height: 16px;
   text-align: right;
   color: #FFFFFF;
@@ -89,7 +90,7 @@ a {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin-top: 180px;
+  margin-top: 110px;
 }
 .section_word {
   font-family: 'Bebas Neue', sans-serif;
@@ -147,7 +148,7 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 363px;
+  margin-top: 150px;
 }
 .story_section-scroll {
   width: 20px;
